@@ -4,3 +4,14 @@
     --primary-text-color:#f1f1f0;
     --secondary-text-color: #a9a8a8;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+}
