@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color :#161616;
+    --main-bg-color :#0f0f0f;
     --icon-bg-color:#2e2e2e;
     --primary-text-color:#f1f1f0;
     --secondary-text-color: #a9a8a8;
@@ -15,4 +15,50 @@ body {
     background-color: var(--main-bg-color);
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
+}
+
+nav {
+    max-width: 100%;
+    min-width: 500px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+.one {
+    width: fit-content;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.three-lines {
+    padding: 8px;
+    font-size: 24px;
+}
+
+.logo {
+    padding: 15px 14px 18px 16px;
+    width: fit-content;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+.logo span sup {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+    color: var(--secondary-text-color);
 }
