@@ -315,3 +315,120 @@ sidebar a:hover {
     border-radius: 8px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+/* Main container CSS that contains all the videos and shorts */
+main {
+    width: 1349px;
+    height: fit-content;
+    position: absolute;
+    top: 112px;
+    left: 80px;
+    margin: 0px 16px;
+    padding-top: 24px;
+}
+
+.video {
+    width: 423px;
+    height: 316px;
+    padding: 10px 16px 36px 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 12px;
+}
+
+.video:hover {
+    background-color: var(--icon-bg-color);
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 238px;
+    border-radius: 12px;
+    background: url("https://i.ytimg.com/vi/5mi_tYSdkWQ/hq720.jpg?sqp=-…AB&rs=AOn4CLCCYF4kGc65QlrG7lDSrDwxTavBtw&usqp=CBQ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.timestamp {
+    width: 39px;
+    height: 20px;
+    padding: 1px 4px;
+    font-size: 12px;
+    background-color: #0f0f0f;
+    color: #f1f1f0;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.video-description {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 12px;
+}
+
+.youtuber-profile {
+    width: 36px;
+    height: 36px;
+    margin-top: 9px;
+}
+
+.youtuber-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.video-details {
+    width: 379px;
+    height: 20px;
+}
+
+.video-description .video-details .video-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.video-details .video-title span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.video-details .video-title i {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.video-details .video-title i:hover {
+    background-color: var(--icon-hover);
+}
+
+.video-about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
