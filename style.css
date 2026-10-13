@@ -15,6 +15,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
+    position: relative;
 }
 
 a {
@@ -26,13 +27,15 @@ a {
 
 /* Navbar CSS */
 nav {
-    max-width: 100%;
-    min-width: 500px;
+    width: 100%;
+    min-width: 1105px;
     height: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 16px;
+    position: fixed;
+    top: 0px;
 }
 
 
@@ -144,4 +147,67 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: 22px;
+}
+
+/* Container 3 CSS that contains Create button, Notification icon and profile picture */
+.three {
+    width: 210px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.create {
+    width: 103px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-text-color);
+    background-color: var(--icon-bg-color);
+    font-size: 15px;
+    border-radius: 20px;
+    gap: 5px;
+    margin: 0px 3px;
+}
+
+.create i {
+    font-size: 24px;
+}
+
+.notifications {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    margin: 0px 3px;
+}
+
+.notifications:hover {
+    background-color: var(--icon-bg-color);
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+
+
+
+/* CSS for content-choice which is right below Navbar */
+.content-choice {
+    height: 1500px;
 }
