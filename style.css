@@ -282,7 +282,36 @@ sidebar a:hover {
 .content-choice {
     position: absolute;
     top: 56px;
-    width: 2062px;
+    left: 72px;
+    width: 2050px;
     height: 56px;
     background-color: var(--secondary-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 24px;
+}
+
+.choices-selected {
+    width: fit-content;
+    height: 32px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f0;
+    color: #0f0f0f;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.choices {
+    width: fit-content;
+    height: 32px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    background-color: var(--icon-bg-color);
+    color: #f1f1f0;
+    border-radius: 8px;
+    cursor: pointer;
 }
